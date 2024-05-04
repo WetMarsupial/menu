@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+    line-height: 1.5em;
+    font-family: outfit;
+    color: hsl(30, 6%, 28%);
+  }
+  
+body {
+    background-color: hsl(30, 54%, 90%);
+    width: 100%;
+    height: 100%;
+  }
+  
+.container {
+    border: black solid 0px;
+    border-radius: 25px;
+    background-color: #fff;
+    width: 700px;
+    margin: 50px auto;
+    padding: 25px;
+  }
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 700;
+    font-family: young-serif;
+    color: hsl(14, 45%, 36%);
+}
+
+li strong {
+    font-weight: 600;
+}
+  
+p {
+    font-size: 16px;
+    font-weight: 400;
+  }
+  
+  
+  /* HEADING */
+  
+.omelette {
+    width: 100%;
+    height: 300px;
+    margin-bottom: 15px;
+    border-radius: 25px;
+  }
+  
+.recipe_heading {
+    margin-bottom: 15px;
+    color: black;
+  }
+  
+.description {
+    margin-bottom: 40px;
+  }
+  
+  /* PREP */
+  
+.prep_container {
+    background-color: hsl(330, 100%, 98%);
+    padding: 20px;
+    margin-bottom: 40px;
+    border-radius: 25px;
+  }
+
+.prep {
+    font-family: Outfit;
+    color: hsl(332, 51%, 32%);
+}
+  
+.prep_list {
+    margin-left: 20px;
+  }
+  
+.prep_list li {
+    margin: 10px;
+    padding: 0 10px;
+  }
+  
+  /* INGREDIENTS */
+  
+.ing_container {
+    margin-bottom: 40px;
+  }
+  
+.ing_list {
+    margin-left: 20px;
+  }
+  
+.ing_list li {
+    margin: 10px;
+    padding: 0 10px;
+  }
+  
+  /* INSTRUCTIONS */
+  
+.ins_container {
+    margin: 40px 0;
+  }
+  
+.ins_list {
+    margin-left: 20px;
+  }
+  
+.ins_list li {
+    margin: 10px;
+    padding: 0 10px;
+  }
+  
+  /* NUTRITION */
+
+.nut {
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+.nut_info {
+    margin-bottom: 10px;
+}
+
+.nut_span {
+    padding: 10px;
+}
+
+.nut_span span {
+    margin-left: 25px;
+}
+
+.nut_stats {
+    color: hsl(14, 45%, 36%);
+    font-weight: 600;
+    margin-right: 100px;
+    float: right;
+}
